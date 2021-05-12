@@ -344,6 +344,12 @@ a {
 		background-color: #fafafa;
 		color: black;
 	}
+	
+	.term p {
+		font-size: 7px;
+		line-height: 14px;
+	}
+	
 	.copy {
 		display: flex;
 		justify-content: space-between;
