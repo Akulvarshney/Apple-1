@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+* {
+	padding: 0%;
+	margin: 0%;
+}
+
+.row {
+	margin-bottom: 10px;
+}
+
+.card {
+	margin-bottom: 0%;
+	height: 43rem;
+	width: 35rem;
+	background-color: #fbfbfb;
+	justify-content: space-between;
+	padding: 10px;
+	border: 8px white solid;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	z-index: 1400;
+	height: 40px;
+	padding: 10px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	backdrop-filter: saturate(180%) blur(2rem);
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav-list-lg {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 10%;
+}
+
+.nav-list-mob {
+	display: none;
+}
+
+.nav-link {
+	padding: 0 1rem;
+	color: white;
+	opacity: 0.7;
+	font-size: 15px;
+}
+
+.nav-link:hover {
+	color: white;
+	opacity: 1;
+}
+
+.extra h3 {
+	margin-top: 40px;
+	margin-bottom: 0%;
+	background-color: #fbfbfb;
+	font-size: 15px;
+	padding: 10px 70px;
+	font-weight: lighter;
+	font-style: bold;
+	text-align: center;
+}
+
+.ipad h1 {
+	padding-top: 30px;
+	font-size: 50px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.ipad h3 {
+	font-size: 22.5px;
+}
+
+.ipad p {
+	color: #86868b;
+	padding-top: 5px;
+	font-size: 15px;
+}
+
+.ipad a {
+	justify-content: space-between;
+	padding: 0 15px;
+	font-size: 19px;
+}
+
+.iphone12 h1 {
+	padding-top: 30px;
+	font-size: 50px;
+}
+
+.iphone12 h3 {
+	font-size: 22.5px;
+}
+
+.iphone12 p {
+	color: #86868b;
+	padding-top: 5px;
+	font-size: 15px;
+}
+
+.iphone12 a {
+	justify-content: space-between;
+	padding: 0 15px;
+	font-size: 19px;
+}
+
+.imac {
+	background: url(img/imac-large.jpg) no-repeat center;
+	height: 45rem;
+	background-size: 225rem;
+	background-color: #fafafa;
+	color: black;
+}
+
+.imac h1 {
+	padding-top: 40px;
+	font-size: 50px;
+}
+
+.imac h3 {
+	font-size: 22.5px;
+}
+
+.imac p {
+	color: #86868b;
+	padding-top: 5px;
+	font-size: 15px;
+}
+
+.imac a {
+	justify-content: space-between;
+	padding: 0 15px;
+	font-size: 19px;
+}
+
+.imac img {
+	height: 25rem;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	background-color: black;
+}
+
+.iphone12p {
+	background-color: black;
+	color: white;
+}
+
+.card-1 {
+	background: url('img/iphone12p.jpg') no-repeat center;
+	background-size: 50rem;
+	padding: 5px;
+	background-color: black;
+	color: black;
+}
+
+.iphone12p h1 {
+	padding-top: 30px;
+	font-size: 40px;
+}
+
+.iphone12p h3 {
+	font-size: 17px;
+}
+
+.iphone12p p {
+	color: #86868b;
+	padding-top: 5px;
+	font-size: 15px;
+}
+
+.iphone12p a {
+	justify-content: space-between;
+	padding: 0 15px;
+	font-size: 15px;
+}
+
+.watch {
+	background-color: black;
+	color: white;
+}
+
+.watch .logo-watch {
+	height: 60px;
+	margin-top: 30px;
+}
+
+.watch h1 {
+	padding-top: 30px;
+	font-size: 50px;
+}
+
+.watch h3 {
+	font-size: 22.5px;
+	font-weight: lighter;
+}
+
+.watch p {
+	color: #86868b;
+	padding-top: 5px;
+	font-size: 15px;
+}
+
+.card-2 {
+	background: url('img/watch-lg.jpg') no-repeat center;
+	background-size: 46rem;
+	background-color: black;
+	color: black;
+}
+
+.watch a {
+	justify-content: space-between;
+	padding: 0 15px;
+	font-size: 15px;
+}
+
+.card-3 {
+	background: url('img/tag.jpg') no-repeat center;
+	background-size: 45.5rem;
+	background-color: #fbfbfd;
+	color: black;
+}
+
+.tag h1 {
+	padding-top: 30px;
+	font-size: 40px;
+}
+
+.tag p {
+	font-size: 17px;
+}
+
+.tag a {
+	justify-content: space-between;
+	padding: 0 15px;
+	font-size: 15px;
+}
+
+.card-4 {
+	background: url('img/mac.jpg') no-repeat center;
+	background-size: 53rem;
+	background-color: #fbfbfd;
+	color: white;
+}
+
+.macair h1 {
+	padding-top: 30px;
+	font-size: 40px;
+}
+
+.macair p {
+	font-size: 17px;
+}
+
+.macair a {
+	justify-content: space-between;
+	padding: 0 15px;
+	font-size: 15px;
+}
+
+@media screen and (max-width: 767px) and (min-width: 0px) {
+	.nav-list-lg {
+		display: none;
+	}
+
+	.nav-list-mob {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+		list-style-type: none;
+	}
+
+	.nav-list {
+		margin-top: 1px;
+	}
+
+	.nav-item {
+		width: 4.8rem;
+		display: flex;
+		justify-content: center;
+	}
+
+	.nav-item-hidden {
+		display: none;
+	}
+
+	.mobile-menu {
+		position: relative;
+		z-index: 1400;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+	}
+
+	.line {
+		position: absolute;
+		width: 1.7rem;
+		height: 1.5px;
+		background-color: white;
+		transition: margin-top 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+	}
+
+	.line-top {
+		margin-top: 0px;
+	}
+
+	.line-bottom {
+		margin-top: 15px;
+	}
+
+	.extra h3 {
+		font-size: 14px;
+	}
+
+	.ipad {
+		height: 43.2rem;
+		background: url('img/ipad-md.jpg') no-repeat center;
+		background-color: black;
+		color: white;
+	}
+
+	.iphone12 {
+		height: 41rem;
+		background: url('img/iphone-md.jpg') no-repeat center;
+		background-size: 55rem;
+		background-color: #efe5fe;
+		color: black;
+	}
+
+	.imac {
+		background: url(img/imac-md.jpg) no-repeat center;
+		height: 45rem;
+		background-size: 55rem;
+		background-color: #fafafa;
+		color: black;
+	}
+	.copy {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+@media screen and (min-width: 767px) {
+	.ipad {
+		height: 45rem;
+		background: url('img/ipad-large.jpg') no-repeat center;
+		background-size: 80rem;
+		background-color: black;
+		color: white;
+	}
+
+	.iphone12 {
+		height: 45rem;
+		background: url('img/iphone-large.jpg') no-repeat center;
+		background-size: 200rem;
+		background-color: #efe5fe;
+		color: black;
+	}
+
+	.imac {
+		background: url(img/imac-large.jpg) no-repeat center;
+		height: 45rem;
+		background-size: 225rem;
+		background-color: #fafafa;
+		color: black;
+	}
+
+	.term {
+		padding: 1% 15%;
+		background-color: #fbfbfb;
+	}
+
+	.term p {
+		font-size: 12px;
+		line-height: 14px;
+	}
+
+	.term hr {
+		padding: 0 13%;
+	}
+
+	.copy {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.nav-link-apple {
+	height: 1.8rem;
+	background: url('img/apple.svg') no-repeat center;
+}
+
+.nav-link-search {
+	height: 1.8rem;
+	background: url('img/search.svg') no-repeat center;
+}
+
+.nav-link-bag {
+	height: 1.8rem;
+	background: url('img/bag.svg') no-repeat center;
+}
